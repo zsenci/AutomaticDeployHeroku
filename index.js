@@ -43,7 +43,7 @@ server.get("/demo/getexample", function(req, res) {
     var respRandomValue = Math.floor(Math.random() * 10 + 1) ;
 
     console.log('request  description: ', respRandomValue);
-    res.json({type: true, data: 'kapott valasz, a verzioszam a kovetkezokeppen valtozik:  v1.0' + respRandomValue});
+    res.json({type: true, data: 'kapott valasz:  v1.0' + respRandomValue});
 
 
     // prepare the json answer
